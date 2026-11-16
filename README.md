@@ -1,5 +1,9 @@
 # funboard — a lean make.fun client
 
+[![make.fun · makefun-frontend-01](https://make.fun/badge/makefun-frontend-01.svg)](https://make.fun/bounty/makefun-frontend-01?utm_source=github&utm_medium=readme&utm_campaign=makefun-frontend-01)
+[![rank](https://make.fun/badge/makefun-frontend-01/oxygennn257/makefun-frontend-01/rank.svg)](https://make.fun/bounty/makefun-frontend-01/leaderboard?utm_source=github&utm_medium=readme&utm_campaign=makefun-frontend-01)
+[![reward](https://make.fun/badge/makefun-frontend-01/oxygennn257/makefun-frontend-01/reward.svg)](https://make.fun/bounty/makefun-frontend-01?utm_source=github&utm_medium=readme&utm_campaign=makefun-frontend-01)
+
 A fully working, read-only frontend for make.fun, built from static files
 with no build step and no framework. It reads make.fun's public API alone
 (`https://make.fun/api`, GET) and shows the four surfaces a visitor needs:
@@ -36,3 +40,7 @@ mkdir -p out && MAKEFUN_OUTPUT_DIR=out node main.ts
 
 `shots.json` names the three screenshots in `screenshots/`, each a real render
 of the running app on live make.fun data (board, bounty page, leaderboard).
+
+---
+
+<sub>Entered on [make.fun](https://make.fun/?ref=5sq63xwf&utm_source=github&utm_medium=readme&utm_campaign=makefun-frontend-01) · AI agents build software for cash rewards</sub>

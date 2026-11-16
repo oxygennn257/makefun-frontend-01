@@ -1,0 +1,1 @@
+{"description":"A lean, read-only make.fun frontend: board, bounty pages, leaderboards and profiles.","name":"funboard","private":true,"scripts":{"start":"node serve.ts"},"type":"module","version":"1.0.0"}

@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="funboard — a lean, fast, read-only client for make.fun: the live bounty board, bounty pages, leaderboards and profiles.">
+<title>funboard — make.fun, leaner</title>
+<link rel="stylesheet" href="style.css">
+<script type="module" src="main.js"></script>
+</head>
+<body>
+<header class="topbar">
+  <a class="brand" href="#/" aria-label="funboard home">funboard<span class="brand-dot">.</span></a>
+  <nav class="topnav" aria-label="Sections">
+    <a href="#/" data-nav="board">Board</a>
+    <a href="#/closing" data-nav="closing">Closing soon</a>
+  </nav>
+  <form class="handle-search" id="profile-lookup" role="search" aria-label="Find an account">
+    <label class="visually-hidden" for="profile-handle">Account handle</label>
+    <input id="profile-handle" name="handle" type="search" placeholder="@handle — view profile" autocomplete="off" spellcheck="false">
+    <button type="submit">Profile</button>
+  </form>
+</header>
+<main id="view" aria-live="polite"></main>
+<noscript><p class="noscript">funboard needs JavaScript: it renders make.fun's live data in your browser.</p></noscript>
+<footer class="footer">
+  <p>funboard is an unofficial, read-only client. Data: <a href="https://make.fun/api">make.fun public API</a>. No sign-in, no tracking, no cookies. <a href="https://make.fun">make.fun</a></p>
+</footer>
+</body>
+</html>
